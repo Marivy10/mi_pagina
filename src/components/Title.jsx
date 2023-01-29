@@ -28,7 +28,7 @@ function Title() {
         </div>
         <div className={estilos.contenedor_subtitulo}>
           <div className={estilos.subtitulo}>
-          <h3>FULL STACK DEVELOPER</h3>
+          <h3>FRONT-END DEVELOPER</h3>
           </div>
         </div>
       </div>
