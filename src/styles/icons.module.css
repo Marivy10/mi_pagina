@@ -1,0 +1,79 @@
+.contenedor_principal {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  justify-content: flex-end;
+}
+
+.contenedor_iconos {
+  box-sizing: border-box;
+  display: flex;
+  width: 8em;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.iconos {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: flex;
+ 
+}
+.iconitos {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+.c{
+  list-style: none;
+  margin: 2em 0;
+  padding: 0;
+  width: 3em;
+  height: 2.5em;
+  transition: transform 2s;
+}
+.imgenes:hover{
+    /* transform: rotate(360deg); */
+    background-color: rgb(60, 255, 0);
+  }
+  
+.img_Linkedin {
+
+  width: 5em;
+  margin: 2em 0;
+  cursor: pointer;
+}
+.re{
+    width:100%;
+    height: 100%;
+    margin: 2em 0;
+    cursor: pointer;    
+}
+
+.imgenes {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.rayaArriba{
+    padding: 1px;
+    height: 7.5em;
+    background-color: blanchedalmond;
+}
+
+.rayaAbajo{
+    padding: 1px;
+    height: 7.5em;
+    background-color: blanchedalmond;
+}

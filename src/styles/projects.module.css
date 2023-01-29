@@ -1,0 +1,38 @@
+.contenedor {
+  background-color: rgb(0, 0, 0);
+  position: relative;
+  width: 100%;
+}
+
+.projects {
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    font-size: 3em;
+    letter-spacing: 0.2em;
+    color: white;
+    display: flex;
+}
+
+.next {
+  position: relative;
+  top: -290px;
+  background-color: pink;
+  color: black;
+  border-radius: 50px;
+}
+.x {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: pink;
+  color: black;
+  border-radius: 50px;
+}
+.prev{
+    position: relative;
+    top:-290px; 
+    background-color:pink;
+    color:black;
+    border-radius:50px;
+}

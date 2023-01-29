@@ -1,0 +1,123 @@
+.contenedorMayor {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+
+}
+.contenedorSecundario {
+  background-color: rgb(0, 0, 0);
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+}
+.posicion {
+  position: absolute;
+  top: 1em;
+  width: 100%;
+}
+.skills {
+  display: flex;
+  justify-content: center;
+  font-family: sans-serif;
+  font-size: 3em;
+  letter-spacing: 0.2em;
+  color: white;
+ background-color: aqua;
+}
+
+.segundaPosicion {
+  position: absolute;
+  width: 100%;
+  height: 40%;
+  top: 7em;
+  margin-left: 3em;
+}
+
+.tercerPosicion {
+  position: absolute;
+  margin-left: 3em;
+  width: 100%;
+
+  top: 8em;
+  height: 40%;
+}
+.hardSkills {
+  background-color: blue;
+  color: rgb(253, 45, 249);
+  width: 100%;
+  width: 100%;
+  height: 20%;
+  top: -8%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  font-family: sans-serif;
+  font-size: 2.5em;
+  letter-spacing: 0.2em;
+}
+.segundoContenido{
+  position: absolute;
+  margin-left: 3em;
+  width: 50%;
+  top: 13em;
+  height: 30%;
+}
+.segundoContenido li {
+    font-family: sans-serif;
+      font-size: 20px;
+      letter-spacing: 0.1em;
+      color: white;
+      margin-left: 2%;
+     opacity: 0;
+      display: inline-block;
+      animation: animate 1s linear forwards;
+    }
+    @keyframes animate {
+        0% {
+          opacity: 0;
+          transform: rotateY(90deg);
+          filter: blur(10px);
+        }
+        100% {
+          opacity: 1;
+          transform: rotateY(0deg);
+          filter: blur(0px);
+        }
+      }
+      .segundoContenido li:nth-child(1) {
+        animation-delay: 1s;
+      }
+      .segundoContenido li:nth-child(2) {
+        animation-delay: 2s;
+      }
+      .segundoContenido li :nth-child(3) {
+        animation-delay: 3s;
+      }
+      .segundoContenido li:nth-child(4) {
+        animation-delay: 3.5s;
+      }
+      .segundoContenido li:nth-child(5) {
+        animation-delay: 3.75s;
+      }
+      .segundoContenido li:nth-child(6) {
+        animation-delay: 4s;
+      }
+      .segundoContenido li:nth-child(7) {
+        animation-delay: 4.5s;
+      }
+      .segundoContenido li:nth-child(8) {
+        animation-delay: 5s;
+      }
+      .segundoContenido li:nth-child(9) {
+        animation-delay: 5.5s;
+      }
+      .segundoContenido li:nth-child(10) {
+        animation-delay: 6s;
+      }
+      .segundoContenido li:nth-child(11) {
+        animation-delay: 6.5s;
+      }
+      .segundoContenido li:nth-child(12) {
+        animation-delay: 7s;
+      }

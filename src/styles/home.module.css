@@ -1,0 +1,26 @@
+.contenedor_principal{
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    position: relative;
+
+}
+
+.contenedor_fondo{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.video{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    display: block;
+    object-fit: cover;
+}
