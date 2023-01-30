@@ -1,12 +1,45 @@
-.contenedorMayor {
-  position: relative;
-  height: 100%;
+.containerP{
+  background-color: aqua;
+  margin: 0;
+  padding: 0;
   width: 100%;
+  height: 100vh;
   box-sizing: border-box;
 
 }
-.contenedorSecundario {
-  background-color: rgb(0, 0, 0);
+.titleSkill{
+  margin: 0;
+  padding: 0;
+  color: red;
+  display: flex;
+  height: 7%;
+  justify-content: center;
+  align-items: center;
+  background-color: azure;
+  box-sizing: border-box;
+}
+.containerP_containerSphera{
+  margin: 0;
+  padding: 0;
+  background-color: orange;
+  width: 100%;
+  height: 93%;
+  box-sizing: border-box;
+ display: flex;
+ justify-content:space-around ;
+ align-items: center;
+ 
+}
+.containerTextoParrafo{
+  width: 30%;
+}
+.parrafoDescription{
+  font-family: "Poppins";
+  color: white;
+  font-size: 1.5em;
+}
+/* .contenedorSecundario {
+  background-color: rgb(236, 166, 166);
   position: absolute;
   height: 100vh;
   width: 100%;
@@ -120,4 +153,4 @@
       }
       .segundoContenido li:nth-child(12) {
         animation-delay: 7s;
-      }
+      } */
