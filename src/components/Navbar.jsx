@@ -10,6 +10,7 @@ const Navbar = () => {
           <li className={estilos.b}>Projects</li>
           <li className={estilos.b}>Skills</li>
           <li className={estilos.b}>About me</li>
+          <li className={estilos.b}>HELLO</li>
           <li className={estilos.b}>Contact</li>
         </ul>
       </nav>
